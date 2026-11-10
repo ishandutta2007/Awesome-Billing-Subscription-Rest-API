@@ -1,7 +1,7 @@
 # Awesome-Billing-Subscription-Rest-API
 # Awesome-Billing-Subscription-Rest-API
 
-# Top Billing & Subscription REST API Ecosystem
+## Top Billing & Subscription REST API Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Subscription Management, Invoicing & Payment Orchestration via REST APIs*  
