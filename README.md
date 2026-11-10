@@ -62,59 +62,59 @@ A comparison of leading hosted subscription engines and payment REST APIs, sorte
 
 ## 💻 Open-Source GitHub Projects
 
-Curated open-source billing engines, metered usage backends, and subscription management platforms for self-hosted and cloud-native deployments. Repositories are sorted in **descending order by GitHub star count**:
+Curated open-source billing engines, metered usage backends, and subscription management platforms for self-hosted and cloud-native deployments. Repositories are sorted in **descending order by GitHub Stars_Count**:
 
-- **[Lago](https://github.com/getlago/lago)** [![GitHub stars](https://img.shields.io/github/stars/getlago/lago?style=social&color=white)](https://github.com/getlago/lago/stargazers)  
+- **[Lago](https://github.com/getlago/lago)** [![GitHub_Stars](https://img.shields.io/github/stars/getlago/lago?style=social&color=white)](https://github.com/getlago/lago/stargazers)  
   ⚡ *Open-source usage-based billing API and metering platform.* Designed as a developer-first alternative to Chargebee and Stripe Billing, Lago handles high-throughput usage event ingestion, hybrid subscription pricing, custom coupons, credit wallets, localized PDF invoicing, and automated payment orchestration.
 
-- **[Invoice Ninja](https://github.com/invoiceninja/invoiceninja)** [![GitHub stars](https://img.shields.io/github/stars/invoiceninja/invoiceninja?style=social&color=white)](https://github.com/invoiceninja/invoiceninja/stargazers)  
+- **[Invoice Ninja](https://github.com/invoiceninja/invoiceninja)** [![GitHub_Stars](https://img.shields.io/github/stars/invoiceninja/invoiceninja?style=social&color=white)](https://github.com/invoiceninja/invoiceninja/stargazers)  
   🧾 *Self-hosted invoicing, billing, and payment processing suite.* Built with Laravel and Flutter, providing a robust REST API for recurring invoices, automated client payment reminders, quote-to-invoice workflows, and integration with 17+ payment gateways.
 
-- **[Crater](https://github.com/crater-invoice-inc/crater)** [![GitHub stars](https://img.shields.io/github/stars/crater-invoice-inc/crater?style=social&color=white)](https://github.com/crater-invoice-inc/crater/stargazers)  
+- **[Crater](https://github.com/crater-invoice-inc/crater)** [![GitHub_Stars](https://img.shields.io/github/stars/crater-invoice-inc/crater?style=social&color=white)](https://github.com/crater-invoice-inc/crater/stargazers)  
   📊 *Open-source invoicing solution with full REST API.* Built for freelancers and digital businesses to track expenses, generate detailed recurring invoices, estimate payments, and automate account statements through a sleek Vue & Laravel backend.
 
-- **[Flexprice](https://github.com/flexprice/flexprice)** [![GitHub stars](https://img.shields.io/github/stars/flexprice/flexprice?style=social&color=white)](https://github.com/flexprice/flexprice/stargazers)  
+- **[Flexprice](https://github.com/flexprice/flexprice)** [![GitHub_Stars](https://img.shields.io/github/stars/flexprice/flexprice?style=social&color=white)](https://github.com/flexprice/flexprice/stargazers)  
   🏷️ *Usage-based pricing and billing infrastructure for developers.* Features real-time usage metering, credit management, entitlement gating, prepaid wallets, and dynamic pricing models for cloud and AI software applications.
 
-- **[Kill Bill](https://github.com/killbill/killbill)** [![GitHub stars](https://img.shields.io/github/stars/killbill/killbill?style=social&color=white)](https://github.com/killbill/killbill/stargazers)  
+- **[Kill Bill](https://github.com/killbill/killbill)** [![GitHub_Stars](https://img.shields.io/github/stars/killbill/killbill?style=social&color=white)](https://github.com/killbill/killbill/stargazers)  
   💰 *Battle-tested enterprise subscription billing and payments platform.* Features a modular Java-based REST architecture supporting hierarchical accounts, complex product catalogs, multi-currency pricing, overdue state machines, dunning, and custom gateway plugins.
 
-- **[Solidus](https://github.com/solidusio/solidus)** [![GitHub stars](https://img.shields.io/github/stars/solidusio/solidus?style=social&color=white)](https://github.com/solidusio/solidus/stargazers)  
+- **[Solidus](https://github.com/solidusio/solidus)** [![GitHub_Stars](https://img.shields.io/github/stars/solidusio/solidus?style=social&color=white)](https://github.com/solidusio/solidus/stargazers)  
   🛒 *Open-source eCommerce framework with comprehensive subscription and payment extensions.* Written in Ruby on Rails, offering granular REST & GraphQL interfaces for recurring billing orders, custom checkout lifecycles, and merchant payment routing.
 
-- **[Bigcapital](https://github.com/bigcapitalhq/bigcapital)** [![GitHub stars](https://img.shields.io/github/stars/bigcapitalhq/bigcapital?style=social&color=white)](https://github.com/bigcapitalhq/bigcapital/stargazers)  
+- **[Bigcapital](https://github.com/bigcapitalhq/bigcapital)** [![GitHub_Stars](https://img.shields.io/github/stars/bigcapitalhq/bigcapital?style=social&color=white)](https://github.com/bigcapitalhq/bigcapital/stargazers)  
   📑 *Open-source financial accounting and automated invoicing API.* Provides programmatic endpoints for double-entry bookkeeping, recurring billing, customer balances, and financial health reporting.
 
-- **[OpenMeter](https://github.com/openmeterio/openmeter)** [![GitHub stars](https://img.shields.io/github/stars/openmeterio/openmeter?style=social&color=white)](https://github.com/openmeterio/openmeter/stargazers)  
+- **[OpenMeter](https://github.com/openmeterio/openmeter)** [![GitHub_Stars](https://img.shields.io/github/stars/openmeterio/openmeter?style=social&color=white)](https://github.com/openmeterio/openmeter/stargazers)  
   📡 *Cloud-native usage metering and usage-based billing infrastructure.* Ingests millions of real-time events per second via Apache Kafka / ClickHouse to empower AI, cloud, and API developer billing models with low latency.
 
-- **[FOSSBilling](https://github.com/FOSSBilling/FOSSBilling)** [![GitHub stars](https://img.shields.io/github/stars/FOSSBilling/FOSSBilling?style=social&color=white)](https://github.com/FOSSBilling/FOSSBilling/stargazers)  
+- **[FOSSBilling](https://github.com/FOSSBilling/FOSSBilling)** [![GitHub_Stars](https://img.shields.io/github/stars/FOSSBilling/FOSSBilling?style=social&color=white)](https://github.com/FOSSBilling/FOSSBilling/stargazers)  
   🌐 *Free, community-maintained billing and client management software.* Tailored for web hosts, SaaS providers, and cloud service vendors with an extensible modular REST API, ticketing system, and automated recurring billing.
 
-- **[Meteroid](https://github.com/meteroid-oss/meteroid)** [![GitHub stars](https://img.shields.io/github/stars/meteroid-oss/meteroid?style=social&color=white)](https://github.com/meteroid-oss/meteroid/stargazers)  
+- **[Meteroid](https://github.com/meteroid-oss/meteroid)** [![GitHub_Stars](https://img.shields.io/github/stars/meteroid-oss/meteroid?style=social&color=white)](https://github.com/meteroid-oss/meteroid/stargazers)  
   📈 *Open-source billing engine for subscription management and usage analytics.* Offers automated billing cycles, cost limit guards, usage-based calculation engines, and customer billing portals.
 
-- **[Tier](https://github.com/tierrun/tier)** [![GitHub stars](https://img.shields.io/github/stars/tierrun/tier?style=social&color=white)](https://github.com/tierrun/tier/stargazers)  
+- **[Tier](https://github.com/tierrun/tier)** [![GitHub_Stars](https://img.shields.io/github/stars/tierrun/tier?style=social&color=white)](https://github.com/tierrun/tier/stargazers)  
   🎛️ *Developer tool to manage SaaS pricing, features, and entitlements.* Connects to Stripe to synchronize tier definitions, metered feature flags, and plan configurations from a unified JSON schema.
 
-- **[ServiceBot](https://github.com/service-bot/servicebot)** [![GitHub stars](https://img.shields.io/github/stars/service-bot/servicebot)?style=social&color=white)](https://github.com/service-bot/servicebot/stargazers)  
+- **[ServiceBot](https://github.com/service-bot/servicebot)** [![GitHub_Stars](https://img.shields.io/github/stars/service-bot/servicebot)?style=social&color=white)](https://github.com/service-bot/servicebot/stargazers)  
   🤖 *Subscription automation and customer management platform.* Provides API endpoints, customer portals, and webhooks to embed recurring subscription checkouts and account management into any application.
 
-- **[BoxBilling](https://github.com/boxbilling/boxbilling)** [![GitHub stars](https://img.shields.io/github/stars/boxbilling/boxbilling?style=social&color=white)](https://github.com/boxbilling/boxbilling/stargazers)  
+- **[BoxBilling](https://github.com/boxbilling/boxbilling)** [![GitHub_Stars](https://img.shields.io/github/stars/boxbilling/boxbilling?style=social&color=white)](https://github.com/boxbilling/boxbilling/stargazers)  
   📦 *Open-source client billing, recurring invoicing, and order management software.* Features a lightweight API for automating customer accounts, order processing, and gateway transactions.
 
-- **[BillaBear](https://github.com/billabear/billabear)** [![GitHub stars](https://img.shields.io/github/stars/billabear/billabear?style=social&color=white)](https://github.com/billabear/billabear/stargazers)  
+- **[BillaBear](https://github.com/billabear/billabear)** [![GitHub_Stars](https://img.shields.io/github/stars/billabear/billabear?style=social&color=white)](https://github.com/billabear/billabear/stargazers)  
   🐻 *Subscription management and automated workflow billing system.* Provides REST API access, state-machine dunning automation, EU reverse charge tax handling, VAT Sense integration, and multi-processor routing.
 
-- **[GOBL (Go Business Language)](https://github.com/invopop/gobl)** [![GitHub stars](https://img.shields.io/github/stars/invopop/gobl?style=social&color=white)](https://github.com/invopop/gobl/stargazers)  
+- **[GOBL (Go Business Language)](https://github.com/invopop/gobl)** [![GitHub_Stars](https://img.shields.io/github/stars/invopop/gobl?style=social&color=white)](https://github.com/invopop/gobl/stargazers)  
   📜 *Universal standard and Go library for business documents.* Automates digital invoicing, tax calculation, electronic invoice compliance (Factur-X, PEPPOL), and signature verification.
 
 ---
 
 ## 🛠️ SDKs, Tooling & Developer Specifications
 
-- **[Stripe OpenAPI Specification](https://github.com/stripe/openapi)** [![GitHub stars](https://img.shields.io/github/stars/stripe/openapi?style=social&color=white)](https://github.com/stripe/openapi/stargazers) — Official, machine-readable OpenAPI descriptions for Stripe's complete REST API ecosystem, enabling automated client generation, contract testing, and mock servers.
-- **[dj-stripe](https://github.com/dj-stripe/dj-stripe)** [![GitHub stars](https://img.shields.io/github/stars/dj-stripe/dj-stripe?style=social&color=white)](https://github.com/dj-stripe/dj-stripe/stargazers) — Production-ready Django models and webhook handlers that sync Stripe recurring billing data natively to SQL databases.
+- **[Stripe OpenAPI Specification](https://github.com/stripe/openapi)** [![GitHub_Stars](https://img.shields.io/github/stars/stripe/openapi?style=social&color=white)](https://github.com/stripe/openapi/stargazers) — Official, machine-readable OpenAPI descriptions for Stripe's complete REST API ecosystem, enabling automated client generation, contract testing, and mock servers.
+- **[dj-stripe](https://github.com/dj-stripe/dj-stripe)** [![GitHub_Stars](https://img.shields.io/github/stars/dj-stripe/dj-stripe?style=social&color=white)](https://github.com/dj-stripe/dj-stripe/stargazers) — Production-ready Django models and webhook handlers that sync Stripe recurring billing data natively to SQL databases.
 - **[Lago API Client Libraries](https://github.com/getlago)** — Official multi-language SDKs (Python, TypeScript, Go, Ruby) for integrating Lago usage metering and invoicing.
 - **[Zuora OpenAPI Specs](https://developer.zuora.com/)** — Standardized REST OpenAPI definitions for Order-to-Cash, dunning workflows, and billing operations.
 
