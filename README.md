@@ -1,32 +1,49 @@
-# Awesome-Billing-Subscription-Rest-API
-# Awesome-Billing-Subscription-Rest-API
+<div align="center">
 
-## Top Billing & Subscription REST API Ecosystem
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Billing &amp; Subscription REST API Banner" width="100%" />
+</p>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Subscription Management, Invoicing & Payment Orchestration via REST APIs*  
-**Last updated: March 2026**
+# 💳 Awesome Billing & Subscription REST API 🚀
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Billing & Subscription REST API**. These tools expose programmatic interfaces for managing customers, plans, subscriptions, invoices, payments, and usage metering—enabling developers to embed billing logic directly into their applications without building a billing engine from scratch.
+[![Awesome](https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/jc4xtF58Ve)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Billing-Subscription-Rest-API)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
-**Examples** include Chargebee API, Stripe API, Zuora REST API, Recurly API, Maxio API, Paddle API, FastSpring API, Braintree API, Adyen API, and Square API (the category leaders).
+**A curated developer directory of recurring billing engines, subscription management REST APIs, usage-based metering platforms, and self-hosted open-source payment orchestration systems.**
 
-**Open-source emphasis**: This section highlights every major active project for self-hosted billing APIs, subscription management backends, and payment orchestration services—ideal for SaaS builders, platform engineers, and developers seeking transparent, vendor-neutral billing infrastructure with full data ownership.
+*Explore battle-tested SaaS infrastructure and open-source solutions to power subscription lifecycles, complex multi-tier pricing, metered events, invoices, and compliant global payments.*
 
-Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
+</div>
 
-## Table of Contents
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+---
 
-## Sector Overview & Market Dynamics
+## 📑 Table of Contents
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Billing APIs](#-saas--hosted-billing-apis)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ SDKs, Tooling & Developer Specifications](#️-sdks-tooling--developer-specifications)
+- [📈 Star History](#-star-history)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚠️ Disclaimer](#️-disclaimer)
 
-The global subscription and billing management software market is valued at approximately **$8 billion to $10 billion**, with projections indicating rapid expansion to **$18 billion–$30 billion** over the next decade at an 11%–15% CAGR. The sector exhibits a **two-tier market structure**: it is **moderately concentrated at the high-end enterprise tier** dominated by large quote-to-cash suites and global payment networks (e.g., Stripe, PayPal/Braintree, Block, Adyen, and Zuora), but **highly fragmented at the mid-market and SME tier**, where specialized recurring billing engines, merchant-of-record gateways, and open-source infrastructure tools actively compete for developers building bespoke and hybrid pricing models.
+---
 
-## SaaS/Hosted Platforms
+## 🌐 Sector Overview & Market Dynamics
+
+The global subscription and billing management software market is valued at approximately **$8 billion to $10 billion**, with projections indicating rapid expansion to **$18 billion–$30 billion** over the next decade at an 11%–15% CAGR. The sector exhibits a **two-tier market structure**:
+
+- **Enterprise Tier (Moderately Concentrated):** Dominated by large-scale quote-to-cash platforms, full-stack payment networks, and enterprise billing monoliths (such as Stripe, PayPal/Braintree, Block/Square, Adyen, and Zuora). These vendors capture high-value enterprise accounts requiring global tax compliance, complex revenue recognition (ASC 606 / IFRS 15), and unified omni-channel payment acquiring.
+- **Mid-Market & SME Tier (Highly Fragmented):** Intense competition among agile billing startups, Merchant of Record (MoR) providers, and open-source frameworks (e.g., Lago, Flexprice, OpenMeter, Crater, Invoice Ninja). Developers building modern AI, developer-tooling, and usage-heavy B2B SaaS increasingly turn to decoupled, API-first or self-hosted billing engines to maintain complete data ownership and avoid vendor lock-in.
+
+---
+
+## 🏢 SaaS & Hosted Billing APIs
+
+A comparison of leading hosted subscription engines and payment REST APIs, sorted in descending order by **company scale (valuation / market capitalization)**:
 
 | Platform | Company Scale (Valuation / Revenue) | Starting Pricing Tier | Free Tier Limits / Free Trial Details | Description & Integration Highlights |
 | :--- | :--- | :--- | :--- | :--- |
@@ -41,54 +58,105 @@ The global subscription and billing management software market is valued at appr
 | **[Recurly API](https://docs.recurly.com/)** | Backed by Spectrum Equity (~$55M+ revenue) | **$249/month + 0.9%** on monthly billing volume over $40,000 (Starter Plan) | **90-day free trial** of the Starter Plan platform (covers up to $40,000/month in billings during trial before recurring monthly fees kick in). | REST API (v2) for subscription management, dunning workflows, and combined purchase creation endpoints. |
 | **[FastSpring API](https://developer.fastspring.com/)** | Acquired by Accel-KKR (~$25M–$50M+ revenue) | **5.9% + $0.95** per transaction (or flat **8.9%** flat-rate digital goods tier, quote-based) | **No free tier** for live transaction processing; provides an unlimited, perpetual free Test Mode account (`.test.onfastspring.com`) with full storefront simulation and test card verification. | Merchant-of-Record REST API with HTTPS/JSON endpoints for software license management, global tax remittance, and subscription lifecycles. |
 
-## Open-Source GitHub Projects
+---
 
-- **[BillaBear](https://github.com/billabear/billabear)**  
-  Subscription management and billing system with REST API, workflow automation for retryable processes, tax management (EU reverse charge, VAT Sense integration), and multiple payment provider support including Stripe .
+## 💻 Open-Source GitHub Projects
 
-- **[Lago](https://github.com/getlago/lago)**  
-  Open-source usage-based billing API with metering, pricing plans, invoices, and payment orchestration; designed as a self-hosted alternative to Chargebee and Stripe Billing for usage-heavy SaaS.
+Curated open-source billing engines, metered usage backends, and subscription management platforms for self-hosted and cloud-native deployments. Repositories are sorted in **descending order by GitHub star count**:
 
-- **[Kill Bill](https://github.com/killbill/killbill)**  
-  Mature open-source subscription billing and payments platform with REST API, entitlements, invoicing, and usage metering; supports complex catalog and plan structures.
+- **[Lago](https://github.com/getlago/lago)** [![GitHub stars](https://img.shields.io/github/stars/getlago/lago?style=social&color=white)](https://github.com/getlago/lago/stargazers)  
+  ⚡ *Open-source usage-based billing API and metering platform.* Designed as a developer-first alternative to Chargebee and Stripe Billing, Lago handles high-throughput usage event ingestion, hybrid subscription pricing, custom coupons, credit wallets, localized PDF invoicing, and automated payment orchestration.
 
-- **[Meteroid](https://github.com/meteroid-oss/meteroid)**  
-  Open-source pricing and billing infrastructure with subscription management, invoicing, usage-based billing, cost limiting, and revenue analytics [citation:12].
+- **[Invoice Ninja](https://github.com/invoiceninja/invoiceninja)** [![GitHub stars](https://img.shields.io/github/stars/invoiceninja/invoiceninja?style=social&color=white)](https://github.com/invoiceninja/invoiceninja/stargazers)  
+  🧾 *Self-hosted invoicing, billing, and payment processing suite.* Built with Laravel and Flutter, providing a robust REST API for recurring invoices, automated client payment reminders, quote-to-invoice workflows, and integration with 17+ payment gateways.
 
-- **[FOSSBilling](https://github.com/FOSSBilling/FOSSBilling)**  
-  Free, open-source billing and client management API for hosting providers and digital businesses; includes invoicing, recurring charges, and payment gateway modules [citation:12].
+- **[Crater](https://github.com/crater-invoice-inc/crater)** [![GitHub stars](https://img.shields.io/github/stars/crater-invoice-inc/crater?style=social&color=white)](https://github.com/crater-invoice-inc/crater/stargazers)  
+  📊 *Open-source invoicing solution with full REST API.* Built for freelancers and digital businesses to track expenses, generate detailed recurring invoices, estimate payments, and automate account statements through a sleek Vue & Laravel backend.
 
-- **[BoxBilling](https://github.com/boxbilling/boxbilling)**  
-  Open-source billing and client management software with API access for automation of invoicing, orders, and recurring payments [citation:12].
+- **[Flexprice](https://github.com/flexprice/flexprice)** [![GitHub stars](https://img.shields.io/github/stars/flexprice/flexprice?style=social&color=white)](https://github.com/flexprice/flexprice/stargazers)  
+  🏷️ *Usage-based pricing and billing infrastructure for developers.* Features real-time usage metering, credit management, entitlement gating, prepaid wallets, and dynamic pricing models for cloud and AI software applications.
 
-- **[ServiceBot](https://github.com/service-bot/servicebot)**  
-  Open-source subscription management and billing automation system with API endpoints for plans, subscriptions, and customer management [citation:12].
+- **[Kill Bill](https://github.com/killbill/killbill)** [![GitHub stars](https://img.shields.io/github/stars/killbill/killbill?style=social&color=white)](https://github.com/killbill/killbill/stargazers)  
+  💰 *Battle-tested enterprise subscription billing and payments platform.* Features a modular Java-based REST architecture supporting hierarchical accounts, complex product catalogs, multi-currency pricing, overdue state machines, dunning, and custom gateway plugins.
 
-### Additional Strong Open-Source Options
+- **[Solidus](https://github.com/solidusio/solidus)** [![GitHub stars](https://img.shields.io/github/stars/solidusio/solidus?style=social&color=white)](https://github.com/solidusio/solidus/stargazers)  
+  🛒 *Open-source eCommerce framework with comprehensive subscription and payment extensions.* Written in Ruby on Rails, offering granular REST & GraphQL interfaces for recurring billing orders, custom checkout lifecycles, and merchant payment routing.
 
-- **[Stripe OpenAPI Spec](https://github.com/stripe/openapi)** — Official OpenAPI specification for Stripe's API, enabling code generation and contract testing.
-- **[dj-stripe](https://github.com/dj-stripe/dj-stripe)** — Django models and API wrappers that sync Stripe data to a local database, simplifying subscription logic [citation:12].
-- **[Lago API Client Libraries](https://github.com/getlago)** — Official SDKs for integrating with the Lago billing API from various languages.
-- **OpenAPI/Swagger specifications** for Chargebee, Zuora, and other providers that enable mock servers and client generation.
+- **[Bigcapital](https://github.com/bigcapitalhq/bigcapital)** [![GitHub stars](https://img.shields.io/github/stars/bigcapitalhq/bigcapital?style=social&color=white)](https://github.com/bigcapitalhq/bigcapital/stargazers)  
+  📑 *Open-source financial accounting and automated invoicing API.* Provides programmatic endpoints for double-entry bookkeeping, recurring billing, customer balances, and financial health reporting.
 
-**Frameworks for building custom systems**: Combine **Lago** or **Kill Bill** for core billing logic, **BillaBear** for workflow-heavy subscription management, and **Stripe** or **Adyen** for payment processing—with **OpenAPI generators** creating typed clients for your stack.
+- **[OpenMeter](https://github.com/openmeterio/openmeter)** [![GitHub stars](https://img.shields.io/github/stars/openmeterio/openmeter?style=social&color=white)](https://github.com/openmeterio/openmeter/stargazers)  
+  📡 *Cloud-native usage metering and usage-based billing infrastructure.* Ingests millions of real-time events per second via Apache Kafka / ClickHouse to empower AI, cloud, and API developer billing models with low latency.
 
-## How to Contribute
+- **[FOSSBilling](https://github.com/FOSSBilling/FOSSBilling)** [![GitHub stars](https://img.shields.io/github/stars/FOSSBilling/FOSSBilling?style=social&color=white)](https://github.com/FOSSBilling/FOSSBilling/stargazers)  
+  🌐 *Free, community-maintained billing and client management software.* Tailored for web hosts, SaaS providers, and cloud service vendors with an extensible modular REST API, ticketing system, and automated recurring billing.
 
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
+- **[Meteroid](https://github.com/meteroid-oss/meteroid)** [![GitHub stars](https://img.shields.io/github/stars/meteroid-oss/meteroid?style=social&color=white)](https://github.com/meteroid-oss/meteroid/stargazers)  
+  📈 *Open-source billing engine for subscription management and usage analytics.* Offers automated billing cycles, cost limit guards, usage-based calculation engines, and customer billing portals.
 
-Star the repo if you find it useful!
+- **[Tier](https://github.com/tierrun/tier)** [![GitHub stars](https://img.shields.io/github/stars/tierrun/tier?style=social&color=white)](https://github.com/tierrun/tier/stargazers)  
+  🎛️ *Developer tool to manage SaaS pricing, features, and entitlements.* Connects to Stripe to synchronize tier definitions, metered feature flags, and plan configurations from a unified JSON schema.
 
-## Disclaimer
+- **[ServiceBot](https://github.com/service-bot/servicebot)** [![GitHub stars](https://img.shields.io/github/stars/service-bot/servicebot)?style=social&color=white)](https://github.com/service-bot/servicebot/stargazers)  
+  🤖 *Subscription automation and customer management platform.* Provides API endpoints, customer portals, and webhooks to embed recurring subscription checkouts and account management into any application.
 
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Billing APIs must handle PCI DSS compliance for payment data and applicable tax regulations (VAT, GST, sales tax) in your operating jurisdictions.
-- Self-hosted open-source billing engines require proper security hardening, audit logging, and reconciliation controls.
+- **[BoxBilling](https://github.com/boxbilling/boxbilling)** [![GitHub stars](https://img.shields.io/github/stars/boxbilling/boxbilling?style=social&color=white)](https://github.com/boxbilling/boxbilling/stargazers)  
+  📦 *Open-source client billing, recurring invoicing, and order management software.* Features a lightweight API for automating customer accounts, order processing, and gateway transactions.
+
+- **[BillaBear](https://github.com/billabear/billabear)** [![GitHub stars](https://img.shields.io/github/stars/billabear/billabear?style=social&color=white)](https://github.com/billabear/billabear/stargazers)  
+  🐻 *Subscription management and automated workflow billing system.* Provides REST API access, state-machine dunning automation, EU reverse charge tax handling, VAT Sense integration, and multi-processor routing.
+
+- **[GOBL (Go Business Language)](https://github.com/invopop/gobl)** [![GitHub stars](https://img.shields.io/github/stars/invopop/gobl?style=social&color=white)](https://github.com/invopop/gobl/stargazers)  
+  📜 *Universal standard and Go library for business documents.* Automates digital invoicing, tax calculation, electronic invoice compliance (Factur-X, PEPPOL), and signature verification.
 
 ---
 
-**Made for SaaS developers, platform engineers, finance engineers, and product teams building subscription businesses.**  
-Let's make billing APIs more open, programmable, and developer-friendly.
+## 🛠️ SDKs, Tooling & Developer Specifications
+
+- **[Stripe OpenAPI Specification](https://github.com/stripe/openapi)** [![GitHub stars](https://img.shields.io/github/stars/stripe/openapi?style=social&color=white)](https://github.com/stripe/openapi/stargazers) — Official, machine-readable OpenAPI descriptions for Stripe's complete REST API ecosystem, enabling automated client generation, contract testing, and mock servers.
+- **[dj-stripe](https://github.com/dj-stripe/dj-stripe)** [![GitHub stars](https://img.shields.io/github/stars/dj-stripe/dj-stripe?style=social&color=white)](https://github.com/dj-stripe/dj-stripe/stargazers) — Production-ready Django models and webhook handlers that sync Stripe recurring billing data natively to SQL databases.
+- **[Lago API Client Libraries](https://github.com/getlago)** — Official multi-language SDKs (Python, TypeScript, Go, Ruby) for integrating Lago usage metering and invoicing.
+- **[Zuora OpenAPI Specs](https://developer.zuora.com/)** — Standardized REST OpenAPI definitions for Order-to-Cash, dunning workflows, and billing operations.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Billing-Subscription-Rest-API&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Billing-Subscription-Rest-API&type=date&legend=top-left)
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! Help keep this directory comprehensive and up to date:
+
+1. **Fork** the repository.
+2. Create a new branch: `git checkout -b add/my-billing-engine`.
+3. Add your SaaS or open-source tool to `README.md` following the table or list schema.
+4. Ensure descriptions are objective, technical, and accurate.
+5. Commit and push your changes: `git push origin add/my-billing-engine`.
+6. Submit a **Pull Request** detailing the project's purpose and API architecture.
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for exploring and supporting **Awesome Billing & Subscription REST API**! If this repository helped you discover the right billing engine or saved your engineering team development time, consider giving it a ⭐ **Star**, sharing it with fellow developers, or supporting future maintenance:
+
+[![Sponsor ishandutta2007](https://img.shields.io/badge/Sponsor-Buy%20Me%20A%20Coffee-ff69b4?style=for-the-badge&logo=github-sponsors&logoColor=white)](https://github.com/sponsors/ishandutta2007)
+
+Every contribution fuels continuous research, documentation updates, and new developer tools for the open-source billing community! ☕
+
+---
+
+## ⚠️ Disclaimer
+
+- This curated collection is for informational and technical reference purposes only. It does not constitute commercial endorsement or financial advice.
+- When selecting a billing engine or payment gateway, always evaluate compliance obligations, including **PCI DSS Level 1**, **SCA / PSD2**, **SOC 2 Type II**, and local sales tax/VAT remittance rules.
+- Production self-hosted billing engines require rigorous dunning automation, cryptographic audit logging, database backups, and payment reconciliation safeguards.
+
+---
+
+<div align="center">
+  <sub>Built with ❤️ for SaaS engineers, fintech builders, and developer teams worldwide.</sub>
+</div>
