@@ -16,42 +16,30 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
 
 ## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS/Hosted Platforms](#saashosted-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
+
+The global subscription and billing management software market is valued at approximately **$8 billion to $10 billion**, with projections indicating rapid expansion to **$18 billion–$30 billion** over the next decade at an 11%–15% CAGR. The sector exhibits a **two-tier market structure**: it is **moderately concentrated at the high-end enterprise tier** dominated by large quote-to-cash suites and global payment networks (e.g., Stripe, PayPal/Braintree, Block, Adyen, and Zuora), but **highly fragmented at the mid-market and SME tier**, where specialized recurring billing engines, merchant-of-record gateways, and open-source infrastructure tools actively compete for developers building bespoke and hybrid pricing models.
+
 ## SaaS/Hosted Platforms
 
-- **[Chargebee API](https://apidocs.chargebee.com/)**  
-  REST API (HTTP Basic Auth, form-encoded, JSON responses) providing programmatic control over subscriptions, usage metering, invoicing, payments, and customer management; official open-source client libraries available for Ruby, Python, PHP, Java, Node.js, and .NET [citation:1].
-
-- **[Stripe API](https://docs.stripe.com/api)**  
-  RESTful API with predictable resource-oriented URLs, form-encoded request bodies, and JSON responses; official open-source client libraries for Ruby, Python, PHP, Java, Node.js, Go, and .NET [citation:2].
-
-- **[Zuora REST API](https://developer.zuora.com/)**  
-  v1 REST API covering Billing, Payments, Platform, and Finance; OAuth v2.0 authentication recommended, with OpenAPI specifications available for Order-to-Cash operations [citation:3][citation:15].
-
-- **[Recurly API](https://docs.recurly.com/)**  
-  REST API (v2) for subscription management, transactions, and billing info; the Create Purchase endpoint is recommended over legacy transaction creation for combined account, charge, and payment processing [citation:4].
-
-- **[Maxio API](https://developers.maxio.com/)**  
-  Advanced Billing REST API with endpoints for subscriptions, subscription components, events, and invoice events; Maxio.js handles secure payment information capture on the client side [citation:5].
-
-- **[Paddle API](https://developer.paddle.com/)**  
-  REST API with sandbox/live environment separation; official Python SDK (`paddle-python-sdk`) provides lazy-paginated product listing and built-in webhook signature verification [citation:6].
-
-- **[FastSpring API](https://developer.fastspring.com/)**  
-  REST API (HTTPS, JSON) for catalog management, subscription lifecycle automation, and commerce data sync; Basic Auth with Base64-encoded credentials, 250 calls/IP/minute rate limit [citation:7].
-
-- **[Braintree API](https://developer.paypal.com/braintree/)**  
-  Payment processing API with GraphQL-based integration; webhooks use form-encoded `bt_signature` and `bt_payload` with HMAC-SHA1 validation for secure event handling [citation:8].
-
-- **[Adyen API](https://docs.adyen.com/)**  
-  Payment platform API with Open Banking (AISP) endpoints for account details, balances, and transactions; OAuth Bearer token authentication with consent-based access [citation:9].
-
-- **[Square API](https://developer.squareup.com/)**  
-  REST API with OAuth 2.0 token management; access tokens expire in 30 days, refresh tokens (multi-use for code flow, single-use for PKCE) enable long-lived integrations .
+| Platform | Company Scale (Valuation / Revenue) | Starting Pricing Tier | Free Tier Limits / Free Trial Details | Description & Integration Highlights |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Stripe API](https://docs.stripe.com/api)** | **$159B** private valuation (~$6.8B net revenue) | **0.7%** per recurring charge (Pay-as-you-go) or **$620/month** (up to $100k/mo volume) | **No free tier** for live billing (0.7% fee applies from dollar one); provides unlimited, non-expiring free developer sandbox mode with test API keys and cards. | Predictable resource-oriented RESTful API with official open-source client SDKs for Ruby, Python, PHP, Java, Node.js, Go, and .NET. |
+| **[Braintree API](https://developer.paypal.com/braintree/)** *(PayPal)* | **$48B–$63B** market cap of parent PayPal (~$33.2B revenue) | **2.89% + $0.29** per standard transaction (Standard rate) | **No free tier** for live transaction volume; provides an unlimited, perpetual free sandbox environment with real-time subscription lifecycle testing (configurable 1 to 365-day test trials). | Payment processing API featuring GraphQL and REST integrations; webhooks utilize `bt_signature` and `bt_payload` with HMAC-SHA1 validation. |
+| **[Square API](https://developer.squareup.com/)** *(Block)* | **$52B–$53B** market cap of parent Block (~$24.5B revenue) | **$0/month** base software fee; **2.9% + $0.30** per transaction for Subscriptions API & Online APIs | **Square Free Plan ($0/month)**: Unlimited subscriptions and invoices created via API with $0 software subscription fees; pay only the 2.9% + $0.30 per successful customer payment, plus unlimited free developer sandbox. | REST API with OAuth 2.0 token management, recurring subscription variations, customer card-on-file handling, and automatic fallback invoicing. |
+| **[Adyen API](https://docs.adyen.com/)** | **€27B–€28B (~$28B–$30B)** market cap (~€1.4B net revenue) | **Interchange++ pricing** + **$0.11–$0.13** fixed processing fee per transaction (minimum monthly invoice threshold applies) | **No free tier** for live processing (subject to monthly invoice minimums); provides an unlimited, perpetual free test account with simulated APMs, webhooks, and test-card authorizations. | Enterprise payment platform API offering Open Banking (AISP) endpoints, automated recurring charges, and global multi-acquirer infrastructure. |
+| **[Chargebee API](https://apidocs.chargebee.com/)** | **$3.5B** private valuation (~$115M–$200M revenue) | **$0/month** (Starter Plan) or **$599/month** (Performance Plan, covers up to $100k/mo billings) | **$250,000 cumulative lifetime billing limit** free on Starter Plan (0.75% overage fee applies after crossing $250k cap; capped at 50,000 API calls/month). | HTTP Basic Auth REST API with JSON responses providing granular control over subscriptions, usage metering, and customer lifecycles. |
+| **[Zuora REST API](https://developer.zuora.com/)** | **$1.7B** acquisition valuation by Silver Lake / GIC (~$450M revenue) | **Annual contract commitments** starting typically at **$75,000+/year** (Launch / Growth editions) | **No public self-serve free tier**; offers sales-provisioned 30-day proof-of-concept evaluation environments and enterprise sandboxes (Developer Sandbox capped at 250,000 records / 50,000 API calls per 24 hours). | Enterprise-scale REST API (v1) covering quote-to-cash, complex multi-entity billing, ASC 606 revenue recognition, and OpenAPI-driven schemas. |
+| **[Paddle API](https://developer.paddle.com/)** | **$1.4B** private valuation (~$75M–$90M revenue) | **5% + $0.50** per successful checkout transaction ($0/month base software fee) | **No free tier** for live transaction volume (5% + $0.50 applies starting from the first dollar); offers an unlimited free sandbox environment with dedicated sandbox API keys and simulated checkout. | Merchant-of-Record REST API managing sales tax/VAT remittance, subscriptions, and webhooks with official SDKs (e.g., `paddle-python-sdk`). |
+| **[Maxio API](https://developers.maxio.com/)** *(Chargify & SaaSOptics)* | Backed by TA Associates / Vista Equity (~$50M–$100M+ revenue) | **$599/month** (Grow Plan, covers up to $100k/month in billings) | **Maxio Build Plan ($0/month)**: Free non-expiring developer sandbox tier with complete API/SDK access and simulated dummy gateway testing (data purged after 90–120 days of inactivity; no live billing). | Advanced Billing REST API with endpoints for subscription components, usage events, and client-side Maxio.js payment capture. |
+| **[Recurly API](https://docs.recurly.com/)** | Backed by Spectrum Equity (~$55M+ revenue) | **$249/month + 0.9%** on monthly billing volume over $40,000 (Starter Plan) | **90-day free trial** of the Starter Plan platform (covers up to $40,000/month in billings during trial before recurring monthly fees kick in). | REST API (v2) for subscription management, dunning workflows, and combined purchase creation endpoints. |
+| **[FastSpring API](https://developer.fastspring.com/)** | Acquired by Accel-KKR (~$25M–$50M+ revenue) | **5.9% + $0.95** per transaction (or flat **8.9%** flat-rate digital goods tier, quote-based) | **No free tier** for live transaction processing; provides an unlimited, perpetual free Test Mode account (`.test.onfastspring.com`) with full storefront simulation and test card verification. | Merchant-of-Record REST API with HTTPS/JSON endpoints for software license management, global tax remittance, and subscription lifecycles. |
 
 ## Open-Source GitHub Projects
 
